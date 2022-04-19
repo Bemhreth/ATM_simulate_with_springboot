@@ -1,13 +1,11 @@
 package com.bemhreth.bankservice.controllers;
 
-import egs.henokcodes.bankservice.dto.*;
-import egs.henokcodes.bankservice.models.Account;
-import egs.henokcodes.bankservice.models.Transaction;
-import egs.henokcodes.bankservice.repository.AccountRepository;
-import egs.henokcodes.bankservice.services.MyUserDetailsService;
+import com.bemhreth.bankservice.dto.*;
+import com.bemhreth.bankservice.repository.AccountRepository;
+import com.bemhreth.bankservice.services.MyUserDetailsService;
 
-import egs.henokcodes.bankservice.services.OperationService;
-import egs.henokcodes.bankservice.util.JwtUtil;
+import com.bemhreth.bankservice.services.OperationService;
+import com.bemhreth.bankservice.util.JwtUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
