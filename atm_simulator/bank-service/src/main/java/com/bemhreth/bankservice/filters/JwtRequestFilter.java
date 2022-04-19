@@ -1,7 +1,7 @@
 package com.bemhreth.bankservice.filters;
 
-import egs.henokcodes.bankservice.services.MyUserDetailsService;
-import egs.henokcodes.bankservice.util.JwtUtil;
+import com.bemhreth.bankservice.services.MyUserDetailsService;
+import com.bemhreth.bankservice.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
